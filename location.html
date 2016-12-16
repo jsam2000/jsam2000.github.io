@@ -3,6 +3,30 @@
 
   <head>
     <style>
+      .menubar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #820015;
+      }
+      
+      .menubar li {
+        float: left;
+      }
+      
+      .menubar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .menubar li a:hover {
+        background-color: #ff002a;
+      }
+      
       body {
         background-image: url("http://images.firstwefeast.com/complex/image/upload/jnrcws4bpkrcyrdpch1m.jpg");
       }
@@ -46,6 +70,16 @@
   </head>
 
   <body>
+
+    <div class="menubar">
+      <ul>
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+    </div>
     <div class="title">
 
       <h2>7911 Rosewood St Burnaby BC V5E 2H4</h2>
@@ -56,7 +90,7 @@
     <div class="welcome">
       <p>Sample Text</p>
     </div>
-    <img class="cafepicture" src="/images/CafeJosh.gif" style= "height:500px; width:700px;">
+    <img class="cafepicture" src="/images/CafeJosh.gif" style="height:500px; width:700px;">
   </body>
 
 </html>
