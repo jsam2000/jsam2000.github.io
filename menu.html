@@ -1,140 +1,175 @@
 <!DOCTYPE html>
-<html> 
-<head>
-<title>Café Josh</title> 
-<style>
-body {
-  background-image: url("http://images.firstwefeast.com/complex/image/upload/jnrcws4bpkrcyrdpch1m.jpg");
-}
-.title {
-    margin: 100 0 0;
-  background-color: #0080ff;
-  border: 4px solid blue;
-}
+<html>
 
-.title h1 , h2 , h3 , h4 {
-  color: black;
-  text-align: center;
-}
-
-.welcome {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 1.0;
-  filter: alpha(opacity=60);
-}
-
-.welcome p , p2 {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-.pictures {
-    float: left;
-    margin auto;
-    text-align: center;
-    container}
+  <head>
+    <title>Café Josh</title>
+    <style>
+    .menubar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #820015;
       }
-	  </style>
-	  </head>
-	  <body>
+      
+      .menubar li {
+        float: left;
+      }
+      
+      .menubar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .menubar li a:hover {
+        background-color: #ff002a;
+      }
+      
+      body {
+        background-image: url("http://images.firstwefeast.com/complex/image/upload/jnrcws4bpkrcyrdpch1m.jpg");
+      }
+      
+      .title {
+        margin: 100 0 0;
+        background-color: #0080ff;
+        border: 4px solid blue;
+      }
+      
+      .title h1,
+      h2,
+      h3,
+      h4 {
+        color: black;
+        text-align: center;
+      }
+      
+      .welcome {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 1.0;
+        filter: alpha(opacity=60);
+      }
+      
+      .welcome p,
+      p2 {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+      }
+      
+      .pictures {
+        float: left;
+        margin auto;
+        text-align: center;
+      }
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="menubar">
+      <ul>
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+
+
+    <div class="title">
+      <h1>Café Josh Menu</h1>
+
+
+    </div>
+
+    <div class="welcome">
+      <p>
+        <style>
+          table,
+          th,
+          td {
+            border: 1px solid black;
+          }
+
+        </style>
+
+
+        <body>
+
+          <table style="width:100%">
+            <tr>
+              <th>Item</th>
+              <th>Description</th>
+              <th>Cost</th>
+            </tr>
+            <tr>
+              <td> Pancakes</td>
+              <td>A triple stack of fluffy buttermilk pancakes, served with 2 strips of bacon or sausage.</td>
+              <td>$6.99</td>
+            </tr>
+            <tr>
+              <td>Bacon and Eggs</td>
+              <td>2 eggs prepared just the way you like with your choice of toast and our signature fresh red potato hashbrowns and 3 strips of bacon. </td>
+              <td>$7.99</td>
+            </tr>
+            <tr>
+              <td>Fruit Bowl</td>
+              <td>A large bowl of seasonal fresh fruit.</td>
+              <td>$4.99</td>
+            </tr>
+            <tr>
+              <td>Bacon Cheese Burger</td>
+              <td>A heavenly hook-up! Maple bacon and a sharp Cheddar crisp, then even more sharp Cheddar melted on our 8oz CAB burger; with crisp lettuce, fresh tomato, crunchy onion tanglers and mayo. </td>
+              <td>$9.99</td>
+            </tr>
+            <tr>
+              <td>Buffalo Chicken Wrap</td>
+              <td>Zesty salsa tortilla wrapped around plump, hand-battered chicken tenders tossed in Red Hot Ranch sauce, lettuce, red onions and tomatoes. </td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td>Greek Wrap</td>
+              <td>Seasoned grilled lean chicken breast, cucumbers, onions, tomatoes and crumbled Feta drenched with creamy tzatziki; all stuffed in our artisan flatbread, then grilled. Mmmm… opa! </td>
+              <td>$13.49</td>
+            </tr>
+            <tr>
+              <td>Veggie Pizza</td>
+              <td>Fresh tomato sauce, fire-roasted tomatoes, olives, red peppers, spinach leaves, mozzarella. </td>
+              <td>$13.99</td>
+            </tr>
+            <tr>
+              <td>Meat Lover's Pizza</td>
+              <td> Italian tomato sauce, pepperoni, Genoa salami, bacon, Canadian ham, spicy Italian sausage, mozzarella and cheddar.</td>
+              <td>$13.99</td>
+            </tr>
+            <tr>
+              <td>Caesar Salad</td>
+              <td>Romaine lettuce, croutons, formaggio blend and a tangy Caesar dressing. </td>
+              <td>$6.49</td>
+            </tr>
+            <tr>
+              <td>Lasagna</td>
+              <td>Baked with Bolognese and three cheeses</td>
+              <td>$14.99</td>
+            </tr>
+            <tr>
+              <td>Cheese Ravioli</td>
+              <td>Bolognese or sundried tomato alfredo</td>
+              <td>$14.99</td>
+            </tr>
+          </table>
 
 
 
-<div class="title">
-<h1>Café Josh Menu</h1>
 
+          <img src="https://www.lapbandsurgery.com/wp-content/uploads/2014/02/BlogEatingOut.jpg" style="width:300px;height:200px;">
+        </body>
 
-</div>
-
-<div class="welcome">
-  <p>
-<style>
-table, th, td {
-    border: 1px solid black;
-}
-</style>
-</head>
-<body>
-
-<table style="width:100%">
-  <tr>
-    <th>Item</th>
-    <th>Description</th> 
-    <th>Cost</th>
-  </tr>
-  <tr>
-    <td> Pancakes</td>
-    <td>A triple stack of fluffy buttermilk
-pancakes, served with 2 strips of bacon or sausage.</td>
-    <td>$6.99</td>
-  </tr>
-  <tr>
-    <td>Bacon and Eggs</td>
-    <td>2 eggs prepared just the way you
-like with your choice of toast and our signature fresh red potato
-hashbrowns and 3 strips of bacon. </td>
-    <td>$7.99</td>
-  </tr>
-  <tr>
-    <td>Fruit Bowl</td>
-    <td>A large bowl of seasonal fresh fruit.</td>
-    <td>$4.99</td>
-   </tr>
-  <tr> 
-    <td>Bacon Cheese Burger</td>
-    <td>A heavenly hook-up! Maple bacon and a sharp Cheddar
-crisp, then even more sharp Cheddar melted on our 8oz
-CAB burger; with crisp lettuce, fresh tomato, crunchy
-onion tanglers and mayo. </td>
-    <td>$9.99</td>
-  </tr>
-  <tr>
-    <td>Buffalo Chicken Wrap</td>
-    <td>Zesty salsa tortilla wrapped around plump, hand-battered
-chicken tenders tossed in Red Hot Ranch sauce, lettuce,
-red onions and tomatoes. </td>
-    <td>$12.99</td>
-  </tr>
-  <tr>
-    <td>Greek Wrap</td>
-    <td>Seasoned grilled lean chicken breast, cucumbers, onions,
-tomatoes and crumbled Feta drenched with creamy
-tzatziki; all stuffed in our artisan flatbread, then grilled.
-Mmmm… opa! </td>
-    <td>$13.49</td>
-    </tr>
-  <tr>
-    <td>Veggie Pizza</td>
-    <td>Fresh tomato sauce, fire-roasted tomatoes, olives, red peppers, spinach leaves, mozzarella. </td>
-    <td>$13.99</td>
-  </tr>
-  <tr>
-    <td>Meat Lover's Pizza</td>
-    <td> Italian tomato sauce, pepperoni, Genoa salami, bacon, Canadian ham, spicy Italian sausage, mozzarella and cheddar.</td>
-    <td>$13.99</td>
-  </tr>
-  <tr>
-    <td>Caesar Salad</td>
-    <td>Romaine lettuce, croutons, formaggio blend and a tangy Caesar dressing. </td>
-    <td>$6.49</td>
-     </tr>
-  <tr>
-    <td>Lasagna</td>
-    <td>Baked with Bolognese and three cheeses</td>
-    <td>$14.99</td>
-     </tr>
-  <tr>
-    <td>Cheese Ravioli</td>
-    <td>Bolognese or sundried tomato alfredo</td>
-    <td>$14.99</td>
-  </tr>
-</table>
- 
-
-
-
-<img src="https://www.lapbandsurgery.com/wp-content/uploads/2014/02/BlogEatingOut.jpg"style="width:300px;height:200px;"> 
-</body>
 </html>
